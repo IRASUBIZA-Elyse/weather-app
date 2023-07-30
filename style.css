@@ -9,7 +9,8 @@ body{
     align-items: center;
     justify-content: center;  
     background-color: #312f2f;
-    background-image: url('./scrambled-eggs.webp');
+    background-image: url('https://picsum.photos/id/14/900');
+    background-image: url('https://res.cloudinary.com/dl35xvxhm/image/upload/v1690739526/cld-sample-2.jpg');
 }
 
 .card{
@@ -33,3 +34,17 @@ body{
     font-size: 15px;
     width: 200px;
 }
+button{
+    background-color: #312f2f00;
+    border: none;
+    font-size: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+button svg{
+    padding-top: 5px;
+}
+button svg:active{
+    background-color: #3d4a55;
+}
+
