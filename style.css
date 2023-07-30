@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;  
+    background-color: #312f2f;
+    background-image: url('./scrambled-eggs.webp');
+}
+
+.card{
+    background-color: #000000d0;
+    color: #ffffff;
+    padding: 25px;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 300px;
+    margin: 15px;
+}
+
+.search-bar{
+    padding: 0.5em 1em;
+    margin-bottom: 1rem;
+    border-radius: 15px;
+    background-color: #7c7c7c2b;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    font-size: 15px;
+    width: 200px;
+}
